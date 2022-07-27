@@ -1,0 +1,103 @@
+*{
+    margin: 10px 10px;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Asul';
+    
+    }
+
+    .banner {
+      background-color: black ;
+      border-radius: 30px;
+      display: flex;
+      color: #fff;
+      overflow: hidden;
+  } 
+     .banner img{
+      position: relative;
+      animation: imageTransition 5s ease-in-out infinite;
+     }
+  
+  
+     .content h1 {
+      font-size: 3.37rem;
+      margin-bottom: 8px;
+  }
+  
+  
+
+  aside.menu {
+    background: #000;
+    padding: 30px 0;
+    height: 244px;
+    border-radius: 10px;
+   
+    margin-right: 21px;
+}
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 16px;
+    text-align: center;
+}
+aside .btn {
+    margin: 5px 0;
+}
+
+a.btn.active {
+    background: red;
+    border: none;
+    color: #fff;
+}
+
+.btn{
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  padding: 10px 25px;
+  margin: 20px 0;
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  transition: .6s;
+}
+
+
+    .f{
+        height: 300px;
+        width: auto;
+        background-color: black;
+        text-align: center;
+        color: aliceblue;
+        border-radius: 10px;
+        padding: 40px;
+        margin:  0px 20px;
+    }
+    
+    .hr{
+        color: rgb(196, 200, 200);
+        width: 60%;
+    }
+
+    .navbar {
+        width: 100%;
+        overflow: auto;
+      }
+      
+      
+      .navbar a {
+        
+        float: left;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        width: 12%; 
+        text-align: center; 
+      }
+      
+      
+      .navbar a:hover {
+        background-color: rgb(210, 89, 89);
+      }
